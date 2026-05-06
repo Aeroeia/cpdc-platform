@@ -29,10 +29,10 @@ const router = useRouter()
 
 const exhibitionDataList: ExhibitionDataType[] = [
   {
-    name: '发展脉络展厅',
+    name: '瓷韵溯古展厅',
     img: {
       src: '/cpdc-platform/exhibition/home_1.png',
-      alt: '发展脉络展厅',
+      alt: '瓷韵溯古展厅',
     },
     link: '2',
   },
@@ -45,10 +45,10 @@ const exhibitionDataList: ExhibitionDataType[] = [
     link: '1',
   },
   {
-    name: '工坊主题展厅',
+    name: '匠艺生辉展厅',
     img: {
       src: '/cpdc-platform/exhibition/home_3.png',
-      alt: '工坊主题展厅',
+      alt: '匠艺生辉展厅',
     },
     link: '3',
   },

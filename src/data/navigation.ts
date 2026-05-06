@@ -2,6 +2,10 @@ import type { NavItemType } from '@/types/ui'
 
 export const navItem: NavItemType[] = [
   {
+    name: '关于我们',
+    link: '/about',
+  },
+  {
     name: '社区互动',
     link: '/community',
     subitems: [],

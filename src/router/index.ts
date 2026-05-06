@@ -5,6 +5,7 @@ import CommunityDetailView from '@/views/Community/CommunityDetailView.vue'
 import ExhibitionView from '@/views/Exhibition/ExhibitionView.vue'
 import CollectionsView from '@/views/Collections/CollectionsView.vue'
 import CollectionDetailView from '@/views/Collections/CollectionDetailView.vue'
+import AboutView from '@/views/About/AboutView.vue'
 import ViewerView from '@/views/Exhibition/ViewerView.vue'
 import LoginView from '@/views/Auth/LoginView.vue'
 import RegisterView from '@/views/Auth/RegisterView.vue'
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/collections/:id',
       name: 'collection-detail',
       component: CollectionDetailView,
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: AboutView,
     },
     {
       path: '/exhibition_hall',
